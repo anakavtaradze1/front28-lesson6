@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Helvetica Neue LT GEO 55 Roman";
+  src: url('./fonts/HelveticaNeueLTGEO-75Bold.woff2') format('woff2'),
+        url('./fonts/HelveticaNeueLTGEO-75Bold.woff') format('woff'),
+        url('./fonts/HelveticaNeueLTGEO-75Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}

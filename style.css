@@ -49,15 +49,42 @@ a {
   position: absolute;
   top: 285px;
   left: 10px;
-  background-color: #ffffff;
   border-radius: 12px;
   padding: 30px 74px 30px 30px;
   text-align: left;
+  backdrop-filter: blur(10px) brightness(1.15);
+  font-family: "Helvetica Neue LT GEO 55 Roman";
 }
 .project-title {
   font-size: 32px;
   line-height: 39px;
-  color: black;
   color: #ffffff;
   margin-bottom: 80px;
+}
+.otherprojects {
+  font-size: 18px;
+  line-height: 23px;
+  color: #171717;
+  position: absolute;
+  right: 40px;
+  margin-top: 70px;
+}
+.otherprojects::before {
+  content: "|";
+}
+.project-bullet {
+  display: inline-block;
+  background-color: #ffffff;
+  opacity: 0.3;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.project-bullet-container {
+  position: absolute;
+  top: 10px;
+  right: 100px;
+}
+.project-bullet.active {
+  opacity: 1;
 }
